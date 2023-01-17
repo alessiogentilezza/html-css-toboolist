@@ -13,6 +13,11 @@ main {
 
 }
 
+
+#header-logo {
+    padding: 10px 0px;
+}
+
 #logo {
     height: 100px;
     vertical-align: middle;
@@ -29,9 +34,58 @@ main {
     width: 70%;
     margin: auto;
     background-color: white;
-    margin-top: 30px;
 }
 
 .border-radius {
-    border-radius: 10px;
+    border-radius: 5px;
+}
+
+#task {
+    padding: 5px;
+    background-color: #00A2FA;
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+
+#section {
+    padding: 5px;
+    background-color: white margin: 20px;
+
+}
+
+.check::before {
+    content: '\2714';
+}
+
+.todo {
+    margin: 30px;
+}
+
+.bottoni {
+    border-bottom: 2px solid #F4F7F8;
+}
+
+#check-verde {
+    background-color: #11C0A3;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+.testo {
+    line-height: 30px;
+}
+
+#editorial {
+    padding: 5px;
+    background-color: #00A1E6;
+    margin: 20px;
+    border-radius: 20spx;
+    border-color: #ffffff;
+    color: white;
+
+
 }
