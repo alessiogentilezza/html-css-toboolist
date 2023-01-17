@@ -10,6 +10,7 @@ body {
 
 main {
     background-color: #00A2FA;
+    padding-top: 40px;
 
 }
 
@@ -58,7 +59,7 @@ main {
 }
 
 .testo1 {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -72,7 +73,9 @@ main {
 }
 
 #check-verde {
-    background-color: #11C0A3;
+    border-style:solid;
+    border-color: #11C0A3;
+    border-width: 1px;
     border-radius: 50%;
     width: 30px;
     height: 30px;
@@ -85,7 +88,7 @@ main {
 }
 
 #editorial {
-    padding: 5px;
+    padding: 5px 10px;
     background-color: #00A1E6;
     margin: 20px;
     border-radius: 30px;
@@ -96,7 +99,7 @@ main {
 }
 
 #Q1Goals {
-    padding: 5px;
+    padding: 5px 10px;
     background-color: #9F52DC;
     margin: 20px;
     border-radius: 30px;
@@ -106,7 +109,9 @@ main {
 }
 
 #check-rossa {
-    background-color: #FF000E;
+    border-style:solid;
+    border-color: #FF000E;
+    border-width: 1px;
     border-radius: 50%;
     width: 30px;
     height: 30px;
