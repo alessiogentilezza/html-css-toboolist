@@ -43,19 +43,23 @@ main {
 #task {
     padding: 5px;
     background-color: #00A2FA;
-    margin-top: 20px;
     margin-left: 30px;
 
 }
 
 #section {
     padding: 5px;
-    background-color: white margin: 20px;
+    background-color: white;
 
 }
 
 .check::before {
     content: '\2714';
+}
+
+.testo1 {
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .todo {
@@ -64,6 +68,7 @@ main {
 
 .bottoni {
     border-bottom: 2px solid #F4F7F8;
+    padding: 10px;
 }
 
 #check-verde {
@@ -83,9 +88,28 @@ main {
     padding: 5px;
     background-color: #00A1E6;
     margin: 20px;
-    border-radius: 20spx;
+    border-radius: 30px;
     border-color: #ffffff;
     color: white;
 
 
+}
+
+#Q1Goals {
+    padding: 5px;
+    background-color: #9F52DC;
+    margin: 20px;
+    border-radius: 30px;
+    border-color: #9F52DC;
+    color: white;
+
+}
+
+#check-rossa {
+    background-color: #FF000E;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
 }
