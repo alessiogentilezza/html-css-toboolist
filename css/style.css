@@ -5,7 +5,12 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    background-color: #00A2FA;
+
 }
 
 #logo {
@@ -18,10 +23,15 @@ body {
     font-size: 50px;
     font-weight: bold;
     vertical-align: middle;
-    }
+}
 
-    .container{
-        width: 70%;
-        margin: auto;
-        background-color: #00A2FA;
-    }
+.container {
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.border-radius {
+    border-radius: 10px;
+}
